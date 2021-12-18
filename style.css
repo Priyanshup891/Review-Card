@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #D5FBFF;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E7FAFC;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px #a1f6ff;
+   padding: 20px 100px;
+   margin: 0px 30px;
+
+}
+.auother img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #57edfd;
+    margin-bottom: 5px;
+}
+.name {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #57D1FF;
+}
+.work {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #8B8B8B;
+    margin-bottom: 15px;
+}
+.contact-container img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+.info{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8B8B8B;
+    margin-bottom: 30px;
+}
+.btn img{
+    width: 40px;
+    height: 40px;
+}
+.btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+@media only screen and (max-width: 656px){
+    .container-box{
+        padding: 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 532px){
+    .auother img {
+        width: 100px;
+        height: 100px;
+    }
+    .name{
+        font-size: 1.1rem;
+    }
+    .work{
+        font-size: 1rem;
+    }
+    .contact-container img {
+        width: 30px;
+        height: 30px;
+        margin: 0px 5px;
+        margin-bottom: 5px;
+    }
+    .info{
+        font-size: 0.8rem;
+    }
+    .btn img {
+        width: 30px;
+        height: 30px;
+    }
+    .btn {
+        margin: 0px 10px;
+    }
+}
+
+
